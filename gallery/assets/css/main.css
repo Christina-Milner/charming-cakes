@@ -1454,7 +1454,7 @@ input, select, textarea {
 /* Header */
 
 	body {
-		padding: 0 0 4em 0;
+		padding: 5em 0 0 0;
 	}
 
 	#header {
@@ -1470,7 +1470,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		-webkit-user-select: none;
 		background: #1f2224;
-		bottom: -1em;
+		top: 0;
 		height: 5em;
 		left: 0;
 		line-height: 4em;
@@ -1482,10 +1482,10 @@ input, select, textarea {
 	}
 
 		body.is-preload #header {
-			-moz-transform: translateY(4em);
-			-webkit-transform: translateY(4em);
-			-ms-transform: translateY(4em);
-			transform: translateY(4em);
+			-moz-transform: translateY(-4em);
+			-webkit-transform: translateY(-4em);
+			-ms-transform: translateY(-4em);
+			transform: translateY(-4em);
 		}
 
 		#header h1 {
