@@ -235,6 +235,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 300;
@@ -1488,7 +1489,7 @@ input, select, textarea {
 			transform: translateY(-4em);
 		}
 
-		#header h1 {
+		#header h1, #header nav ul li {
 			color: #a0a0a1;
 			display: inline-block;
 			font-size: 1em;
@@ -1506,9 +1507,9 @@ input, select, textarea {
 					color: inherit !important;
 				}
 
-		#header nav {
+		 #header nav {
 			position: absolute;
-			right: 0;
+			right: 1.5em;
 			top: 0;
 		}
 
@@ -1520,7 +1521,7 @@ input, select, textarea {
 
 				#header nav > ul > li {
 					display: inline-block;
-					padding: 0;
+					padding: 0 1em;
 				}
 
 					#header nav > ul > li a {
@@ -2040,11 +2041,23 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer .copyright {
-		color: #505051;
+	
+	footer > p {
+		margin: 0;
+	}
+
+	#myFooter {
+		height: 3em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#myFooter .copyright {
+		color: #a2a2a3;
 		font-size: 0.9em;
 	}
 
-		#footer .copyright a {
+		#myFooter .copyright a {
 			color: inherit;
 		}
